@@ -110,8 +110,8 @@ a:hover{
 }
 
 .title{
-    color: rgb(255, 255, 255);
     mix-blend-mode: difference;
+    color: rgb(255, 255, 255);
     font-size: 3em;
     font-weight: bold;
     float: left;
@@ -164,7 +164,7 @@ video{
     position: fixed;
     mix-blend-mode: difference;
     font-size: 5em;
-    color: rgb(0, 0, 0);
+    color: black;
     padding: 10px;
     top: 0;
     left: 0;
