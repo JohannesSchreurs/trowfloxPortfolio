@@ -48,7 +48,7 @@ about.addEventListener("mouseleave", () => {
 });
 
 if(!isMobile()) {
-    container.addEventListener("mousemove", () => {
+    container.addEventListener("mousemove", (event) => {
         warning.style.top = event.clientY + 10 + window.scrollY + "px";
         warning.style.left = event.clientX + 10 + window.scrollX + "px";
     });
